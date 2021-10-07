@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  position: relative;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#container {
+  width: 850px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#pieceContainer {
+  width: 408px;
+  height: 408px;
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  line-height: 400px;
+  position: relative;
+}
+
+#puzzleContainer {
+  width: 408px;
+  height: 408px;
+  border: 1px solid black;
+  float: right;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ul button {
+  width: 100px;
+  border: 1px solid black;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#btnReset {
+  display: none;
+}
+
+.piece {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  float: left;
+  background-image: url(/img/somepic1.jpg);
+  background-repeat: no-repeat;
+}
+
+.game-completed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.game-completed.d-none {
+  display: none;
+}
+
+.game-completed .game-box {
+  background-color: white;
+  width: 900px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.game-completed .game-box button {
+  width: 200px;
+  border: 1px solid black;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */
